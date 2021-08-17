@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      "description": {
+          "value": "Shared Image Gallery for Synapse Demonstration"
+      },
+      "endOfLifeDate": {
+        "value" : "YYYY-MM-DD"
+      },
+      "galleryName": {
+        "value": "_gallaryName_"
+      },
+      "hyperVGeneration":{
+        "value": "V2"
+      },
+      "imageDefinitionName":{
+        "value": "_ImageDefinitionName_"
+      },
+      "imageVertionName": {
+        "value": "_imageVertionName_"
+      },
+      "location":{
+        "value": "japanwest"
+      },
+      "offer":{
+          "value": "_offer_"
+      },
+      "publisher":{
+        "value": "_publisher_"
+      },
+      "sku":{
+        "value": "_sku_"
+      },
+      "replicaCount":{
+        "value": 1
+      },
+      "osType":{
+        "value": "_ostype_"
+      },
+      "osState":{
+        "value": "Specialized"
+      },
+      "sourceVMImageId":{
+        "value": "_VirtualMachineID_"
+      },
+      "targetRegions":{
+        "value": [
+          {
+            "name": "japaneast",
+            "regionalReplicaCount": 1
+          },
+          {
+            "name": "japanwest",
+            "regionalReplicaCount": 1             
+          }
+        ]
+      }
+  }
+}
