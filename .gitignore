@@ -1,0 +1,3 @@
+deploy-version-up.ps1
+deploy.ps1
+azuredeploy.parameters.dev4*

@@ -3,46 +3,46 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
       "description": {
-          "value": "Shared Image Gallery for Synapse Demonstration"
+          "value": "Shared Image Gallery for Windows Server"
       },
       "endOfLifeDate": {
-        "value" : "YYYY-MM-DD"
+        "value" : "2024-06-30"
       },
       "galleryName": {
-        "value": "_gallaryName_"
+        "value": "winimagesample1"
       },
       "hyperVGeneration":{
         "value": "V2"
       },
       "imageDefinitionName":{
-        "value": "_ImageDefinitionName_"
+        "value": "winserv2022"
       },
       "imageVertionName": {
-        "value": "_imageVertionName_"
+        "value": "0.0.1"
       },
       "location":{
-        "value": "japanwest"
+        "value": "japaneast"
       },
       "offer":{
-          "value": "_offer_"
+          "value": "winservonvm"
       },
       "publisher":{
-        "value": "_publisher_"
+        "value": "contoso"
       },
       "sku":{
-        "value": "_sku_"
+        "value": "winserv2022"
       },
       "replicaCount":{
         "value": 1
       },
       "osType":{
-        "value": "_ostype_"
+        "value": "Windows"
       },
       "osState":{
         "value": "Specialized"
       },
       "sourceVMImageId":{
-        "value": "_VirtualMachineID_"
+        "value": "/subscriptions/be7d3851-09f6-433c-8da5-09aace58dcd2/resourceGroups/demo1/providers/Microsoft.Compute/virtualMachines/winserver-sample1"
       },
       "targetRegions":{
         "value": [
